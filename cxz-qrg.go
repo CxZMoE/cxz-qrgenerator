@@ -17,8 +17,8 @@ var isFile bool
 var isHelp bool
 
 func initFlag() {
-	flag.StringVar(&output, "m", "", "Specify the name of output png.")
-	flag.BoolVar(&isFile, "f", false, "To specify whether the input is a file.")
+	flag.StringVar(&output, "m", "", "input string")
+	flag.BoolVar(&isFile, "f", false, "input file.")
 	flag.BoolVar(&isHelp, "h", false, "Help")
 }
 
